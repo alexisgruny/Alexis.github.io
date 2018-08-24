@@ -2,89 +2,109 @@
 <html lang=fr>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" media="screen and (max-width: 640px)" href="smallscreen.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" />
   <meta charset="utf-8" />
   <title>CV Alexis Gruny</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="row" id="bg">
-      <ul class="col-md-3" id="blocP">
-        <li span style="font-weight:bold">Gruny Alexis</li>
-        <li>01/03/1996</li>
-        <li>160 rue de franciéres</li>
-        <li>60190 Remy</li>
-        <li>06 51 10 32 30</li>
-        <li>Alexis.gruny@gmail.com</li>
+  <div class="container-fluide">
+        <!--Début de la navbar-->
+  <nav class="navbar navbar-expand-lg navBg" id="navBg">
+    <!--Titre de la navbar-->
+    <a class="navbar-brand navFont" id="navFont" href="#">Alexis Gruny</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!--Liste de la navbar-->
+      <ul class="navbar-nav">
+        <li class="nav-item ml-5">
+          <a class="nav-link navFont" id="navFormation" href="#formation">Formation/Languages</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link navFont" id="navCompetence" href="#competence">Compétence</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link navFont" id="navExperience" href="#experience">Expérience</a>
+        </li>
+        <li class="nav-item ml-5">
+          <a class="nav-link navFont" id="navHobbies" href="#hobbies">Hobbies</a>
+        </li>
       </ul>
-      <div class="col-md-8">
-        <h1  id="debut">Développeur Web</h1>
-        <p id="blocPr"> Alexis GRUNY 22 ans. <br> Actuellement en formation a E2N pour passer un titre de développeur web.</p>
-      </div>
+</div>
+</nav><!--Fin de la navbar-->
+    <!-- intro -->
+    <div id="intro">
+      <div id="leftReveal">Développeur Web</div>
+      <img id="profil" src="assets/img/photo_nul.jpg" width="250px" height="200px"/>
+      <div id="rightReveal">Alexis GRUNY 22 ans. <br /> Actuellement en formation a E2N pour passer un titre de développeur web.</div>
+      <div id="quote">"Chez po"</div>
     </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="transition1">
-          <h2 id="Formations">Formations</h2>
-          <ul>
-            <li class="margin"><span class="bold">2018 - 2019</span> Formation E2N Web designer</li>
-            <li class="margin"><span class="bold">2014 - 2015</span> Bac Sti2d</li>
-          </ul>
-        </div>
-        <div class="transition1">
-          <h2 id="Langues">Langues</h2>
-          <ul>
-            <li class="margin"><span class="bold">Anglais</span><span class="color"> ★★★★☆ </span></li>
-            <li class="margin"><span class="bold">Allemand</span><span class="color"> ★★☆☆☆ </span></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="transition1">
-          <h2>Compétences</h2>
-          <ul>
-            <li><span class="bold">Html </span> <span class="color"> ★★★☆☆</span></li>
-            <li><span class="bold">Css </span><span class="color"> ★★☆☆☆</span></li>
-            <li><span class="bold">Git </span><span class="color"> ★★★☆☆</span></li>
-            <li><span class="bold">Atom </span><span class="color"> ★★★☆☆</span></li>
-            <li><span class="bold">C </span><span class="color"> ★★★☆☆</span></li>
-            <li><span class="bold">Nano </span><span class="color"> ★★☆☆☆</span></li>
-            <li><span class="bold">Terminale </span><span class="color"> ★★★☆☆</span></li>
-            <li><span class="bold">bootstrap </span><span class="color"> ★★☆☆☆</span></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="transition1">
-          <h2 id="Expériences">Expériences</h2>
-          <ul>
-            <li class="margin"><span class="bold">2016 - 2017</span> Piscine 42</li>
-            <li class="margin"><span class="bold">2016 - 2017</span> stage parc informatique Volkswagen bank</li>
-          </ul>
-        </div>
-        <div class="transition1">
-          <h2 id="Hobbies">Hobbies</h2>
-          <ul>
-            <li class="margin"><span class="bold">Jeux video</span></li>
-            <li class="margin"><span class="bold">Musique</span> (FL Studio 12)</li>
-            <li class="margin"><span class="bold">Motocross</span></li>
-            <li class="margin"><span class="bold">Manga/Animé</span></li>
-          </ul>
-        </div>
-      </div>
+    <!-- Formation -->
+    <div id="formation">
+      <div id="formationTitle">Formation</div>
+      <div class="formationText"><span class="bold">2018 - 2019</span> : Formation E2N Web designer</div>
+      <p>6 mois de formation intensive, 35 heures par semaine. </br> apprentissage du travail de groupe avec différents projets, mise en application des bonnes pratiques du développement web. </br> Méthodes pédagogique innovantes et professionnelles.</p>
+      <div class="formationText"><span class="bold">2014 - 2015</span> : Bac Sti2d</div>
+      <div id="languages">Languages</div>
+      <div class="languagesText"><span class="bold">Anglais ★★★★☆ </span></div>
+      <div class="languagesText"><span class="bold">Allemand ★★☆☆☆ </span></div>
     </div>
-    <div class="col-md-12" id="blocRe">
-      <a href="#debut"><p>haut de page</p></a>
+    <!-- competence -->
+    <div id="competence">
+      <div id="competenceTitle">Compétence</div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">Terminale  ★★★☆☆</span><img src="assets/img/terminal.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">Nano ★★★☆☆</span><img src="assets/img/terminal.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">Git ★★★★☆</span><img src="assets/img/github.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">Atom ★★★★☆</span><img src="assets/img/atom.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">C ★★★☆☆</span><img src="assets/img/c.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">HTML ★★★★☆</span><img src="assets/img/html.png" style="width: 30px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">CSS ★★★☆☆</span><img src="assets/img/css.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">bootstrap ★★★☆☆</span><img src="assets/img/bootstrap.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">JS ★★★☆☆</span><img src="assets/img/js.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">Jquery ★★★☆☆</span><img src="assets/img/jquery.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">AngularJS ★★☆☆☆</span><img src="assets/img/angularjs.png" style="width: 35px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">Apache ★☆☆☆☆</span><img src="assets/img/apache.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
+      <div class="row col-md-12">
+        <div class="competenceText col-md-5 offset-1"><span class="bold">Canvas ★★☆☆☆</span><img src="assets/img/html.png" style="width: 30px; margin-left: 10px;" /></div>
+        <div class="competenceText col-md-5"><span class="bold">PHP ★☆☆☆☆</span><img src="assets/img/php.png" style="width: 35px; margin-left: 10px;" /></div>
+      </div>
     </div>
   </div>
-
-  <!--<div class="conteneur1">
-  <img src="image.jpg" />
-  <div id="contact">
-  <a href="contact.html"><input type="button" value="Me contacter"></a>
-</div>
-</div>-->
+  <div id="experience">
+    <div id="experienceTitle">Expérience</div>
+    <div class="experienceText"><span class="bold">2016 - 2017</span> : Piscine  <img src="assets/img/42.png" style="width: 40px; margin-left: 10px;" /></div>
+    <p>~14h par jour pendant 1 mois 7 jours /7. </br>Projet de groupe, communication, entraide et travail d'équipe. </br>Développement en C, autoformation pendant toute la durée de la piscine.</p>
+    <div class="experienceText"><span class="bold">2016 - 2017</span> : stage parc informatique Volkswagen bank <img src="assets/img/volkswagen.png" style="width: 200px; margin-left: 10px;" /></div>
+    <p>Parc informatique Volkswagen France banque,Découverte d'un parc informatique, des métiers de sécurité et de maintenance informatique. </br>Plus un premier un point de vue sur le monde du travaildans le secteur du numérique.</p>
+    <img src="assets/img/lvlup.png" style="width :350px; margin-left : 450px; margin-top : 100px;" />
+  </div>
+  <div id="hobbies">
+    <div id="formationTitle">hobbies</div>
+    <div class="formationText"><span class="bold">Jeux video</span><img src="assets/img/Jeuvideo.png" style="width: 40px; margin-left: 10px;" /></div>
+    <div class="formationText"><span class="bold">Musique (FL Studio 12)<img src="assets/img/flstudio.png" style="width: 40px; margin-left: 10px;" /></span></div>
+    <div class="formationText"><span class="bold">Motocross</span><img src="assets/img/moto.png" style="width: 40px; margin-left: 10px;" /></div>
+    <div class="formationText"><span class="bold">Manga/Animé</span><img src="assets/img/anime.png" style="width: 40px; margin-left: 10px;" /></div>
+    <div class="formationText"><span class="bold">Karaté</span><img src="assets/img/karaté.png" style="width: 40px; margin-left: 10px;" /></div>
+  </div>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="assets/js/jquery-3.2.1.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
