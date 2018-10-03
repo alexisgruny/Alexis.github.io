@@ -1,162 +1,39 @@
-img{
-  border-radius: 20%;
-}
-p{
-  text-align: center;
+
+nav{
+    font-family: 'Shadows Into Light', cursive;
 }
 body{
-  background-color: #d58936;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display : table;
+    width: 100%;
 }
-/* Navbarre */
-#navBg{
-  background-color: #69140e;
-  height: auto;
+.navbar-brand{
+    font-size: 25px;
 }
-#navFont{
-  font-family: 'Shrikhand', cursive;
-  font-size: 25px;
-  color : #d58936;
+.nav-link{
+    font-size: 20px;
 }
-#navFormation{
-  font-family: 'Shrikhand', cursive;
-  color : #d58936;
-  font-size: 25px;
+.font-title{
+    font-size: 30px;
 }
-#navExperience{
-  font-family: 'Shrikhand', cursive;
-  color : #d58936;
-  font-size: 25px;
+.font-text{
+    font-size: 20px;
 }
-#navCompetence{
-  font-family: 'Shrikhand', cursive;
-  color : #d58936;
-  font-size: 25px;
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
 }
-#navHobbies{
-  font-family: 'Shrikhand', cursive;
-  color : #d58936;
-  font-size: 25px;
+body {
+	display : table;
+	width: 100%;
 }
-#page-wrap {
-  width: 100%;
-  margin: auto;
-  position: relative;
-  z-index: 10;
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
 }
-#sidebar {
-  width: 190px;
-  position: fixed;
+@media screen and (max-width: 766px) {
+ footer {
+      text-align: center; 
+  }
 }
-/* introdution */
- #intro{
-   background-color: #d58936;
-   margin-top: -30px;
- }
-#leftReveal{
-  font-size: 40px;
-  font-family: 'Shrikhand', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-}
-#profil{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 77px;
-}
-#rightReveal{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 60px;
-}
-#quote{
-  font-family: 'Indie Flower', cursive;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 60px;
-}
-/* Formation */
-#formation{
-  background-color: #d58936;
-  height: 89vh;
-  margin-top: -30px;
-}
-#formationTitle{
-  font-size: 40px;
-  font-family: 'Shrikhand', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 30px;
-}
-#rightReveal{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 60px;
-}
-.formationText{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 30px;
-}
-.bold{
-  font-weight: bold;
-}
-/* Languages */
-#languages{
-  font-size: 40px;
-  font-family: 'Shrikhand', cursive;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 100px;
-}
-.languagesText{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 30px;
-}
-/* competence */
-#competenceTitle{
-  font-size: 40px;
-  font-family: 'Shrikhand', cursive;
-  font-weight: bold;
-  text-align: center;
-}
-#competence{
-  background-color: #d58936;
-  height: 89vh;
-}
-.competenceText{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 30px;
-}
-/* Experience */
-#experience{
-  background-color: #d58936;
-  height: 89vh;
-}
-#experienceTitle{
-  font-size: 40px;
-  font-family: 'Shrikhand', cursive;
-  font-weight: bold;
-  text-align: center;
-}
-.experienceText{
-  font-size: 20px;
-  font-family: 'Shrikhand', cursive;
-  text-align: center;
-  margin-top: 30px;
-}
-/* hobbies */
-#hobbies{
-  background-color: #d58936;
-  height: 89vh;
-  margin-top: -30px;
-}
-/* media */
+

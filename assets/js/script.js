@@ -53,8 +53,4 @@ $(document).ready(function(){
 
 });
 
-// intro
-window.sr = ScrollReveal({ reset: true });
-sr.reveal('#leftReveal', { origin:'left', duration: 2000, distance:'200px',scale:'0.5' });
-sr.reveal('#rightReveal', { origin:'right', duration: 2000, distance:'10px', scale:'0.5', });
-sr.reveal('#quote', { origin:'bottom', duration: 2000, distance:'10px', scale:'0.5', });
+
